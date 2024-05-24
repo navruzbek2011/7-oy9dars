@@ -1,0 +1,76 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.card {
+    border: 1px solid dodgerblue;
+}
+
+.images {
+    width: 100%;
+}
+
+.title {
+    color: dodgerblue;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+.box {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.yurak {
+    font-style: 25px;
+    border: 1px solid transparent;
+    background: transparent;
+}
+
+.yurak:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: dodgerblue;
+    font-style: 20px;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.btn:hover {
+    transition: .5s;
+    cursor: pointer;
+    color: dodgerblue;
+    background: transparent;
+    border: 1px solid dodgerblue;
+}
+.btn2 {
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    font-style: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.btn2:hover {
+    transition: .5s;
+    cursor: pointer;
+    color: red;
+    background: transparent;
+    border: 1px solid red;
+}
